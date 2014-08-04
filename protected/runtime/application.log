@@ -1,0 +1,2008 @@
+2014/07/25 13:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/tokoonline/index.php?r=gii
+---
+2014/07/25 14:15:05 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\orderyuk\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\orderyuk\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\orderyuk\views\layouts\column2.php(36): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\BarangtblController.php(128): CController->render('index', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BarangtblController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('barangtbl')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/tokoonline/index.php?r=barangtbl
+---
+2014/07/25 14:15:28 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\orderyuk\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\orderyuk\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\orderyuk\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/25 14:18:40 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\orderyuk\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\orderyuk\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\orderyuk\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 12:39:31 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\protected\views\layouts\column1.php(7): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 12:43:49 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:11:40 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:15:44 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:23:17 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:26:11 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:30:38 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:31:28 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isAdmin".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('isAdmin', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CWebUser->isAdmin()
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:32:52 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admintbl" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('admintbl')
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CModule->__get('admintbl')
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:33:25 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.pelanggantbl" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('pelanggantbl')
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CModule->__get('pelanggantbl')
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:33:43 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admintbl" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('admintbl')
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CModule->__get('admintbl')
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:39:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.pelanggaltbl" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('pelanggaltbl')
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CModule->__get('pelanggaltbl')
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:40:32 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.pelanggaltbl" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('pelanggaltbl')
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CModule->__get('pelanggaltbl')
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:41:12 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.pelanggaltbl" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('pelanggaltbl')
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CModule->__get('pelanggaltbl')
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 13:41:45 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admintbl" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('admintbl')
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CModule->__get('admintbl')
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/26 19:34:42 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admintbl" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('admintbl')
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CModule->__get('admintbl')
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/07/27 11:30:50 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admintbl" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('admintbl')
+#1 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\tpl_navigation.php(3): CModule->__get('admintbl')
+#2 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\main.php(5): require_once('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<section class=...')
+#7 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<section class=...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#10 C:\xampp\htdocs\tokoonline\themes\newssourcefinal\views\layouts\column1.php(10): CBaseController->endContent()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/08/01 11:36:09 [error] [php] include(main.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+2014/08/01 11:38:38 [error] [php] include(main.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+2014/08/01 12:08:08 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.views" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('views')
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(133): CWebUser->__get('views')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/08/01 12:18:35 [error] [php] include(config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+2014/08/01 12:20:23 [error] [php] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (135)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 12:20:56 [error] [php] include(main.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:133)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (133)
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (133)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+2014/08/01 12:23:33 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.config" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('config')
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(133): CWebUser->__get('config')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/08/01 12:24:21 [error] [php] include(yii::app()-&gt;user-&gt;config/main.php) [<a href='function.include'>function.include</a>]: failed to open stream: Invalid argument (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:133)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (133)
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (133)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+2014/08/01 12:34:01 [error] [php] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ODBC'@'localhost' (using password: NO) (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (135)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 13:06:45 [error] [php] mysql_fetch_array() expects parameter 1 to be resource, object given (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (141)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 13:49:46 [error] [php] mysql_fetch_array() expects parameter 1 to be resource, object given (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (141)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 13:50:37 [error] [php] mysql_fetch_array() expects parameter 1 to be resource, object given (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (141)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 13:52:49 [error] [php] mysql_fetch_array() expects parameter 1 to be resource, object given (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (141)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 13:57:23 [error] [php] mysql_query() expects parameter 1 to be string, object given (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (135)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 14:03:55 [error] [php] mysql_query() expects parameter 1 to be string, object given (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (135)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 14:53:33 [error] [exception.CException] exception 'CException' with message 'WebUser and its behaviors do not have a method or closure named "getLevel".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('getLevel', Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(136): WebUser->getLevel()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/08/01 21:27:02 [error] [php] mysql_fetch_array() expects parameter 1 to be resource, null given (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (141)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 21:27:25 [error] [php] mysql_fetch_array() expects parameter 1 to be resource, object given (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:141)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (141)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 21:44:33 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 21:47:12 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 21:54:36 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 21:55:42 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 22:04:41 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(33): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (33)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 22:05:05 [error] [exception.CException] exception 'CException' with message 'Property "Kategoritbl.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(135): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php
+---
+2014/08/01 22:05:38 [error] [exception.CException] exception 'CException' with message 'Property "Kategoritbl.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(135): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php
+---
+2014/08/01 22:06:25 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/index.php
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/01 22:16:58 [error] [php] include(TbAiMenu.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\protected\components\submenu.php(14): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\CPortlet.php(97): Submenu->renderContent()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Submenu->run()
+#3 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(133): SiteController->widget()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#8 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/index.php
+in C:\xampp\htdocs\tokoonline\protected\components\submenu.php (14)
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (133)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+2014/08/01 22:17:42 [error] [exception.CException] exception 'CException' with message 'Submenu cannot find the view "index".' in C:\xampp\htdocs\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\protected\components\submenu.php(15): CWidget->render('index', Array)
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\CPortlet.php(97): Submenu->renderContent()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CPortlet->run()
+#3 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(133): CBaseController->widget('Submenu')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tokoonline/index.php
+---
+2014/08/01 22:18:41 [error] [exception.CException] exception 'CException' with message 'Submenu cannot find the view "index".' in C:\xampp\htdocs\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\protected\components\submenu.php(15): CWidget->render('index', Array)
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\CPortlet.php(97): Submenu->renderContent()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CPortlet->run()
+#3 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(133): CBaseController->widget('Submenu')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tokoonline/index.php
+---
+2014/08/01 22:18:51 [error] [exception.CException] exception 'CException' with message 'Submenu cannot find the view "index".' in C:\xampp\htdocs\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\protected\components\submenu.php(15): CWidget->render('index', Array)
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\CPortlet.php(97): Submenu->renderContent()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CPortlet->run()
+#3 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(133): CBaseController->widget('Submenu')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/08/01 22:20:37 [error] [exception.CException] exception 'CException' with message 'Submenu cannot find the view "mainMenu".' in C:\xampp\htdocs\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\protected\components\submenu.php(15): CWidget->render('mainMenu', Array)
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\CPortlet.php(97): Submenu->renderContent()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CPortlet->run()
+#3 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(133): CBaseController->widget('Submenu')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/08/02 11:33:41 [error] [exception.CException] exception 'CException' with message 'Submenu cannot find the view "index".' in C:\xampp\htdocs\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\protected\components\submenu.php(15): CWidget->render('index', Array)
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\CPortlet.php(97): Submenu->renderContent()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CPortlet->run()
+#3 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(133): CBaseController->widget('Submenu')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/tokoonline/
+---
+2014/08/02 12:10:04 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'. The SQL statement executed was: SELECT *
+FROM `newstbl`
+ORDER BY `name`, `tanggal` DESC.
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (117)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/02 12:10:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'. The SQL statement executed was: SELECT *
+FROM `newstbl`
+ORDER BY `name`, `tanggal` DESC' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(117): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+HTTP_REFERER=http://localhost/tokoonline/
+---
+2014/08/02 13:10:17 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.isAdmin" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('isAdmin')
+#1 C:\xampp\htdocs\tokoonline\protected\components\Controller.php(25): CWebUser->__get('isAdmin')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(281): Controller->init()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/tokoonline/index.php?r=site/login
+HTTP_REFERER=http://localhost/tokoonline/index.php
+---
+2014/08/02 13:32:26 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.nama" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2728): CComponent->__get('nama')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(LoginForm), 'nama')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(LoginForm), 'nama', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(789): CHtml::activeTextField(Object(LoginForm), 'nama', Array)
+#4 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\login.php(32): CActiveForm->textField(Object(LoginForm), 'nama', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(92): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/tokoonline/index.php?r=site/login
+HTTP_REFERER=http://localhost/tokoonline/index.php
+---
+2014/08/02 13:36:01 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.nama" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2728): CComponent->__get('nama')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(LoginForm), 'nama')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(LoginForm), 'nama', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(789): CHtml::activeTextField(Object(LoginForm), 'nama', Array)
+#4 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\login.php(32): CActiveForm->textField(Object(LoginForm), 'nama', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(92): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/tokoonline/index.php?r=site/login
+HTTP_REFERER=http://localhost/tokoonline/index.php
+---
+2014/08/02 13:50:30 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.nama" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2728): CComponent->__get('nama')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(LoginForm), 'nama')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(LoginForm), 'nama', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(789): CHtml::activeTextField(Object(LoginForm), 'nama', Array)
+#4 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\login.php(32): CActiveForm->textField(Object(LoginForm), 'nama', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(92): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/tokoonline/index.php?r=site/login
+HTTP_REFERER=http://localhost/tokoonline/index.php?r=site/login
+---
+2014/08/02 14:10:45 [error] [exception.CException] exception 'CException' with message 'Property "Pelanggantbl.Email" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Email')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('Email')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(Pelanggantbl), 'Email')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(Pelanggantbl), 'Email', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(789): CHtml::activeTextField(Object(Pelanggantbl), 'Email', Array)
+#5 C:\xampp\htdocs\tokoonline\protected\views\pelanggantbl\_regform.php(16): CActiveForm->textField(Object(Pelanggantbl), 'Email', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\tokoonline\protected\views\pelanggantbl\register.php(18): CController->renderPartial('_regform', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#14 C:\xampp\htdocs\tokoonline\protected\controllers\PelanggantblController.php(103): CController->render('register', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PelanggantblController->actionRegister()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pelanggantbl/re...')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/tokoonline/index.php?r=pelanggantbl/register
+---
+2014/08/02 22:08:20 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$kategori' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE kategori = $kategori LIMIT 12.
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (162)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/02 22:08:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$kategori' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE kategori = $kategori LIMIT 12' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(162): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+---
+2014/08/02 22:10:12 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$kategori' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE kategori = $kategori LIMIT 12.
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (162)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/02 22:10:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$kategori' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE kategori = $kategori LIMIT 12' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(162): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+---
+2014/08/03 12:40:15 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$kategori' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE kategori = $kategori LIMIT 12.
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (163)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 12:40:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$kategori' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE kategori = $kategori LIMIT 12' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(163): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Kaos%20/%20T-Shirt
+HTTP_REFERER=http://localhost/tokoonline/
+---
+2014/08/03 12:41:25 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$kategori' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE $kategori = kategori LIMIT 12.
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (163)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 12:41:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$kategori' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE $kategori = kategori LIMIT 12' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(163): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+HTTP_REFERER=http://localhost/tokoonline/
+---
+2014/08/03 12:42:35 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jeans' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE kategori = jeans LIMIT 12.
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (163)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 12:42:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jeans' in 'where clause'. The SQL statement executed was: SELECT *
+FROM `barangtbl`
+WHERE kategori = jeans LIMIT 12' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(163): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Jeans
+HTTP_REFERER=http://localhost/tokoonline/
+---
+2014/08/03 12:48:56 [error] [exception.CException] exception 'CException' with message 'Property "CDbCommand.rowCount" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CComponent->__get('rowCount')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Kaos%20/%20T-Shirt
+HTTP_REFERER=http://localhost/tokoonline/
+---
+2014/08/03 12:50:21 [error] [exception.CException] exception 'CException' with message 'Property "CDbCommand.rowCount" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CComponent->__get('rowCount')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=All
+---
+2014/08/03 12:53:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = All).
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 12:53:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = All)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#5 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=All
+---
+2014/08/03 12:55:18 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = All).
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 12:55:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = All)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=All
+---
+2014/08/03 12:59:26 [error] [php] include(Model.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#5 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/index.php?kategori=All
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:08:03 [error] [php] Missing argument 1 for CDbCommand::bindValue(), called in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php on line 164 and defined (C:\xampp\htdocs\yii\framework\db\CDbCommand.php:271)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:14:01 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Accesories' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = Accesories).
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (163)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:14:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Accesories' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = Accesories)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(163): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+---
+2014/08/03 13:17:52 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Accesories' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = Accesories).
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (163)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:17:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Accesories' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = Accesories)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(163): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+HTTP_REFERER=http://localhost/tokoonline/
+---
+2014/08/03 13:18:20 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Accesories' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = Accesories).
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (163)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:18:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Accesories' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = Accesories)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(163): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+---
+2014/08/03 13:19:07 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Accesories' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = Accesories).
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:19:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Accesories' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl Where (kategori = Accesories)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+---
+2014/08/03 13:19:41 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM barangtbl Where .
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:19:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM barangtbl Where ' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Accesories
+---
+2014/08/03 13:27:17 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Kaos' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl where kategori = Kaos / T-Shirt .
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:27:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Kaos' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl where kategori = Kaos / T-Shirt ' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Kaos%20/%20T-Shirt
+HTTP_REFERER=http://localhost/tokoonline/index.php?kategori=Accesories
+---
+2014/08/03 13:28:16 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM barangtbl where kategori =  .
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:28:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM barangtbl where kategori =  ' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Kaos%20/%20T-Shirt
+HTTP_REFERER=http://localhost/tokoonline/index.php?kategori=Accesories
+---
+2014/08/03 13:30:59 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Kaos' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl where kategori = Kaos / T-Shirt.
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:30:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Kaos' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl where kategori = Kaos / T-Shirt' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Kaos%20/%20T-Shirt
+---
+2014/08/03 13:39:47 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Jeans' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl where kategori = Jeans.
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (164)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 13:39:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Jeans' in 'where clause'. The SQL statement executed was: SELECT * FROM barangtbl where kategori = Jeans' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php(164): CDbCommand->query()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/tokoonline/index.php?kategori=Jeans
+---
+2014/08/03 15:42:41 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:133)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/index.php?kategori=Jaket%20Parasut
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (133)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 15:43:31 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php:134)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\tokoonline\index.php(13): CWebApplication->run()
+REQUEST_URI=/tokoonline/index.php?kategori=Jaket%20Parasut
+in C:\xampp\htdocs\tokoonline\themes\Eshopper\views\site\index.php (134)
+in C:\xampp\htdocs\tokoonline\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\tokoonline\index.php (13)
+2014/08/03 19:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail_info.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail_i...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail_i...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/produk_det...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=site/produk_detail_info.php
+---
+2014/08/03 19:57:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail_info".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail_i...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail_i...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/produk_det...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=site/produk_detail_info
+---
+2014/08/03 19:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail_info.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail_i...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail_i...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/produk_det...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=site/produk_detail_info.php
+---
+2014/08/03 19:59:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail_info".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail_i...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail_i...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/produk_det...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=site/produk_detail_info
+---
+2014/08/03 20:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail_info".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail_i...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail_i...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pelanggantbl/pr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=pelanggantbl/produk_detail_info
+---
+2014/08/03 20:01:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_register".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('_register')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('_register')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pelanggantbl/_r...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=pelanggantbl/_register
+---
+2014/08/03 20:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pelanggantbl/pr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=pelanggantbl/produk_detail
+---
+2014/08/03 20:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pelanggantbl/pr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=pelanggantbl/produk_detail
+---
+2014/08/03 20:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pelanggantbl/pr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=pelanggantbl/produk_detail
+---
+2014/08/03 20:11:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pelanggantbl/pr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=pelanggantbl/produk_detail
+---
+2014/08/03 20:11:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pelanggantbl/pr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=pelanggantbl/produk_detail
+---
+2014/08/03 20:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pelanggantbl/pr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=pelanggantbl/produk_detail
+---
+2014/08/03 20:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('barangtbl/produ...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=barangtbl/produk_detail
+---
+2014/08/03 20:22:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "produk_detail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('produk_detail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk_detail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('barangtbl/produ...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/tokoonline/index.php?r=barangtbl/produk_detail
+---
+2014/08/03 20:22:35 [error] [exception.CException] exception 'CException' with message 'Property "CDbDataReader." is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\tokoonline\protected\views\barangtbl\produk.php(7): CComponent->__get('')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('produk', Array, true)
+#5 C:\xampp\htdocs\tokoonline\protected\controllers\BarangtblController.php(136): CController->render('produk', Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BarangtblController->actionProduk()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('produk')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('barangtbl/produ...')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\tokoonline\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/tokoonline/index.php?r=barangtbl/produk
+---
